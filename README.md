@@ -13,8 +13,6 @@
 
 ## 📸 Preview Tampilan
 
-*(Tambahkan foto screenshot aplikasi kamu di folder `screenshots/` agar repo public semakin menarik!)*
-
 | Tampilan Publik Halaman Utama | Dashboard Admin & Live Simulator |
 | :---: | :---: |
 | ![Public Bio Link](public/halamanutama.png) | ![Admin Dashboard](public/halamanadmin.png)
