@@ -69,7 +69,7 @@
 
 ### 1. Clone Repositori
 ```bash
-git clone https://github.com/username_kamu/projek-rececowear.git
+git clone https://github.com/Novian74/rececowearr.git
 cd projek-rececowear
 ```
 
