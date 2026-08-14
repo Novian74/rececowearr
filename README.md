@@ -17,7 +17,8 @@
 
 | Tampilan Publik Halaman Utama | Dashboard Admin & Live Simulator |
 | :---: | :---: |
-| ![Public Bio Link](https://via.placeholder.com/400x700?text=Public+Bio-Link+Page) | ![Admin Dashboard](https://via.placeholder.com/400x700?text=Admin+Dashboard+Simulator) |
+| ![Public Bio Link](public/halamanutama.png) | ![Admin Dashboard](public/halamanadmin.png)
+
 
 ---
 
