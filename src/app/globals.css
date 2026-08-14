@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Ensure ALL input boxes, textareas, and select elements always have dark black text */
+input,
+select,
+textarea {
+  color: #0f172a !important;
+  background-color: #ffffff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Color input picker styling */
+input[type="color"] {
+  padding: 2px;
+  background-color: #ffffff;
+}

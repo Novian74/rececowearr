@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#f0f7ff" rx="16"/>
+  <!-- Blue Patterned Cardigan -->
+  <path d="M25,35 L40,30 L60,30 L75,35 L80,55 L70,57 L68,42 L68,75 L32,75 L32,42 L30,57 L20,55 Z" fill="#88b5dd" stroke="#4878a4" stroke-width="1.5"/>
+  <circle cx="42" cy="50" r="3" fill="#ffffff"/>
+  <circle cx="58" cy="50" r="3" fill="#ffffff"/>
+  <circle cx="50" cy="62" r="3" fill="#ffffff"/>
+</svg>

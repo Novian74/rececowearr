@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <rect width="500" height="500" rx="250" fill="#ffffff" stroke="#ec8aa7" stroke-width="12"/>
+  <text x="250" y="225" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="76" fill="#ec8aa7">Receco</text>
+  <text x="250" y="315" text-anchor="middle" font-family="Georgia, serif" font-weight="bold" font-size="76" fill="#80a1d1">wear</text>
+</svg>

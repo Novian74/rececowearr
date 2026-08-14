@@ -1,0 +1,44 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model AdminUser {
+  id                  String   @id @default(uuid())
+  username            String   @unique
+  passwordHash        String
+  displayName         String   @default("Rececowear")
+  avatarUrl           String   @default("")
+  bio                 String   @default("")
+  backgroundColor     String   @default("#ffffff")
+  cardBackgroundColor String   @default("#ffffff")
+  cardTextColor       String   @default("#333333")
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+}
+
+model LinkBlock {
+  id          String   @id @default(uuid())
+  title       String
+  url         String
+  imageUrl    String   @default("")
+  position    Int      @default(0)
+  isActive    Boolean  @default(true)
+  clicks      Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  analyticsLogs AnalyticsLog[]
+}
+
+model AnalyticsLog {
+  id        String     @id @default(uuid())
+  type      String     // "VIEW" or "CLICK"
+  linkId    String?
+  link      LinkBlock? @relation(fields: [linkId], references: [id], onDelete: Cascade)
+  createdAt DateTime   @default(now())
+}
