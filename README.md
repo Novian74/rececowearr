@@ -70,7 +70,7 @@
 ### 1. Clone Repositori
 ```bash
 git clone https://github.com/Novian74/rececowearr.git
-cd projek-rececowear
+cd rececowearr
 ```
 
 ### 2. Install Dependensi
